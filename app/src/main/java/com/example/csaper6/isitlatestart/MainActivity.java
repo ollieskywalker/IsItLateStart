@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             "Is it late start?",
             "hit me baby one more time",
             "Are you sure?",
-            "What is harder to catch the faster to run",
+            "What is harder to catch the faster you run",
             "Answer: your breath",
             "Fun fact: The stickers on fruit are made of edible paper",
             "Last one I promise!",
