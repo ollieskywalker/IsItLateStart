@@ -66,12 +66,15 @@ public class MainActivity extends AppCompatActivity {
         //wire
         checkButton = (Button) findViewById(R.id.button_check);
         commandTextView = (TextView) findViewById(R.id.textView_command);
-
+        
         //on clicks
         checkButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Random r = new Random();
                 updateQ();
+                checkButton.setX(r.getNextint(700)+1);
+                checkButton.setY(r.getNextint(700)+1);
             }
         });
     }
